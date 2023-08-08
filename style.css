@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    margin-top: 200px;
+    font-size: xx-large;
+    background-image:url('msgy.webp');
+}
+.box{
+    background-image:linear-gradient(to bottom left,rgb(110, 217, 236),rgb(238, 119, 119));
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.box #msg-ip{
+    height:35px;
+    width:200px;
+    border:2px  soldi black;
+    background-color: rgb(224, 220, 231);
+    box-shadow: 0 0 50px blueviolet;
+}
+.box #click{
+    height:40px;
+    width:70px;
+    border:2px solid black;
+    background-color: rgb(245, 232, 157);
+    border-radius:20%;
+}
+.box #click:hover{
+    background-image: linear-gradient(blue,yellow);
+}
